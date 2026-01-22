@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main() {
+    float r[3], avg;
+    scanf("%f %f %f",&r[0],&r[1],&r[2]);
+    avg = (r[0]+r[1]+r[2])/3;
+    printf("Average = %.2f", avg);
+    return 0;
+}
