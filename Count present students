@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main() {
+    int n;
+    printf("Enter present students: ");
+    scanf("%d",&n);
+    printf("Present = %d", n);
+    return 0;
+}
